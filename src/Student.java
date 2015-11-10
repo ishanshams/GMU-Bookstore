@@ -16,7 +16,9 @@ public class Student {
     private Course[] courses = new Course [10];
     private static int numStudents = 0;
     
-    
+    /**
+     * Default Constructor
+     */
     public Student() {
         this("");
     }
